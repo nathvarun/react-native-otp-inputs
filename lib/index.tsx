@@ -14,6 +14,7 @@ interface Props {
   handleChange: (otpCode: string) => void
   inputContainerStyles?: any
   inputStyles?: any
+  otpInputStyles?: any
   inputTextErrorColor?: string
   keyboardType: 'default' | 'email-address' | 'numeric' | 'phone-pad'
   numberOfInputs: number
@@ -101,6 +102,7 @@ export default class OtpInputs extends Component<Props, State> {
       numberOfInputs,
       selectTextOnFocus,
       unFocusedBorderColor,
+      otpInputStyles
     } = this.props
     const { otpCode } = this.state
 
@@ -114,6 +116,7 @@ export default class OtpInputs extends Component<Props, State> {
           focusedBorderColor={focusedBorderColor}
           handleBackspace={event => this._handleBackspace(event, index)}
           inputStyles={inputStyles}
+          otpInputStyles={otpInputStyles}
           key={index}
           keyboardType={keyboardType}
           ref={input => (this.inputs[index] = input)}

@@ -44,6 +44,7 @@ export default class App extends Component {
 | errorMessage                | string         | false       | none        | Error message that is displayed above inputs                 |
 | containerStyles             | style (object) | false       | none        | Styles applied to whole container                            |
 | inputContainerStyles        | style (object) | false       | none        | Styles applied to each input container                       |
+| otpInputStyles              | style (object) | false       | none        | Styles applied to input cell                                 |
 | errorMessageContainerStyles | style (object) | false       | none        | Styles applied to error message container                    |
 | errorMessageTextStyles      | style (object) | false       | none        | Styles applied to error message text                         |
 | keyboardType                | string         | true        | 'phone-pad' | Keyboard type for inputs                                     |
