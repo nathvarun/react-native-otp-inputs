@@ -59,48 +59,6 @@ exports[`<OtpInputs /> render 1`] = `
               "width": 40,
             },
             undefined,
-            false,
-          ]
-        }
-        underlineColorAndroid="transparent"
-      />
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "#a1a1a1",
-            "borderRadius": 6,
-            "borderWidth": 1,
-            "height": 53,
-            "margin": 10,
-          },
-          undefined,
-          Object {
-            "borderColor": "transparent",
-          },
-        ]
-      }
-    >
-      <TextInput
-        allowFontScaling={true}
-        clearTextOnFocus={false}
-        keyboardType="phone-pad"
-        maxLength={1}
-        onBlur={[Function]}
-        onChangeText={[Function]}
-        onFocus={[Function]}
-        onKeyPress={[Function]}
-        selectTextOnFocus={true}
-        style={
-          Array [
-            Object {
-              "color": "#ffffff",
-              "fontSize": 24,
-              "paddingTop": 10,
-              "textAlign": "center",
-              "width": 40,
-            },
             undefined,
             false,
           ]
@@ -145,6 +103,7 @@ exports[`<OtpInputs /> render 1`] = `
               "width": 40,
             },
             undefined,
+            undefined,
             false,
           ]
         }
@@ -187,6 +146,51 @@ exports[`<OtpInputs /> render 1`] = `
               "textAlign": "center",
               "width": 40,
             },
+            undefined,
+            undefined,
+            false,
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#a1a1a1",
+            "borderRadius": 6,
+            "borderWidth": 1,
+            "height": 53,
+            "margin": 10,
+          },
+          undefined,
+          Object {
+            "borderColor": "transparent",
+          },
+        ]
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        clearTextOnFocus={false}
+        keyboardType="phone-pad"
+        maxLength={1}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        selectTextOnFocus={true}
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontSize": 24,
+              "paddingTop": 10,
+              "textAlign": "center",
+              "width": 40,
+            },
+            undefined,
             undefined,
             false,
           ]
@@ -273,50 +277,6 @@ exports[`<OtpInputs /> rendering with error 1`] = `
               "width": 40,
             },
             undefined,
-            Object {
-              "color": "#ff0000",
-            },
-          ]
-        }
-        underlineColorAndroid="transparent"
-      />
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "#a1a1a1",
-            "borderRadius": 6,
-            "borderWidth": 1,
-            "height": 53,
-            "margin": 10,
-          },
-          undefined,
-          Object {
-            "borderColor": "transparent",
-          },
-        ]
-      }
-    >
-      <TextInput
-        allowFontScaling={true}
-        clearTextOnFocus={false}
-        keyboardType="phone-pad"
-        maxLength={1}
-        onBlur={[Function]}
-        onChangeText={[Function]}
-        onFocus={[Function]}
-        onKeyPress={[Function]}
-        selectTextOnFocus={true}
-        style={
-          Array [
-            Object {
-              "color": "#ffffff",
-              "fontSize": 24,
-              "paddingTop": 10,
-              "textAlign": "center",
-              "width": 40,
-            },
             undefined,
             Object {
               "color": "#ff0000",
@@ -363,6 +323,7 @@ exports[`<OtpInputs /> rendering with error 1`] = `
               "width": 40,
             },
             undefined,
+            undefined,
             Object {
               "color": "#ff0000",
             },
@@ -407,6 +368,53 @@ exports[`<OtpInputs /> rendering with error 1`] = `
               "textAlign": "center",
               "width": 40,
             },
+            undefined,
+            undefined,
+            Object {
+              "color": "#ff0000",
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#a1a1a1",
+            "borderRadius": 6,
+            "borderWidth": 1,
+            "height": 53,
+            "margin": 10,
+          },
+          undefined,
+          Object {
+            "borderColor": "transparent",
+          },
+        ]
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        clearTextOnFocus={false}
+        keyboardType="phone-pad"
+        maxLength={1}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        selectTextOnFocus={true}
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontSize": 24,
+              "paddingTop": 10,
+              "textAlign": "center",
+              "width": 40,
+            },
+            undefined,
             undefined,
             Object {
               "color": "#ff0000",

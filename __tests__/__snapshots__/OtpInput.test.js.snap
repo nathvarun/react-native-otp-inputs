@@ -36,6 +36,7 @@ exports[`<OtpInput /> render 1`] = `
         },
         undefined,
         undefined,
+        undefined,
       ]
     }
     underlineColorAndroid="transparent"
@@ -77,6 +78,7 @@ exports[`<OtpInput /> rendering with error 1`] = `
           "textAlign": "center",
           "width": 40,
         },
+        undefined,
         undefined,
         Object {
           "color": "#00ff00",
